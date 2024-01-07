@@ -99,7 +99,7 @@
   position: relative;
 }
 
-.logo-2024{
+.logo-2024 {
   position: absolute;
   top: 0;
   right: 0;
@@ -137,14 +137,59 @@
 #join {
   padding-left: 158px;
   padding-bottom: 100px;
-  color: rgba(227, 0, 0, 0.1)
+  color: rgba(227, 0, 0, 0.1);
   font-family: Merriweather;
   font-size: 40px;
   font-weight: 800;
 }
-.join-button{
+
+.join-button {
   color: rgb(255, 255, 255);
   background-color: rgba(227, 117, 6, 0.878);
   box-shadow: 3px 3px rgb(198, 243, 114);
 }
-/* MIDNINGT PARTY STARTS */
+
+/* MIDNINGT PARTY ENDS */
+
+/* THIS IS THE EVENT   */
+.event-bgcolor {
+  margin-left: 140px;
+  margin-right: 140px;
+  margin-bottom: 120px;
+  max-width: 1320px;
+  max-height: 482px;
+  background: linear-gradient(to bottom, rgba(255, 0, 0, 0.10), rgba(255, 0, 0, 0.05));
+
+  padding-top: 100px;
+  padding-left: 385px;
+  padding-right: 386px;
+  padding-bottom: 100px;
+}
+
+.orangetext {
+  color: #F00;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.button {
+  padding: 5px 5px;
+  text-align: center;
+  gap: 5px;
+  font-size: 20px;
+  color: #FFF;
+  font-weight: 700;
+  border-radius: 8px;
+  background: #F00;
+}
+
+.descriptiion {
+  font-size: 28px;
+  font-family: Inter;
+  line-height: 56px;
+}
+
+
+.bg-text {
+  align-items: center;
+}
