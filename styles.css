@@ -1,5 +1,59 @@
-/* COMMON SHARED STYLES */
+/* COMMON SHARED STYLES  */
+
 * {
-    font-family: 'Merriweather', serif;
-    background-color: aqua;
+  font-family: "Merriweather", "Inter",  serif;
+}
+
+/* BANNER SECTION STARTS */
+
+.banner-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url("../resources/Banner-Image.png");
+  max-width: 1320px;
+  max-height: 600px;
+  margin: 50px 140px;
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.banner-text {
+  text-align: center;
+}
+
+.banner-title {
+  padding-top: 177px;
+  font-weight: 400;
+  color: #FFF;
+  font-size: 32px;
+}
+
+.banner-heading {
+  padding-bottom: 177px;
+  color: #FFF;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 95px;
+
+}
+
+/* BANNER IMAGE SECTION ENDS */
+.discount-text-title {
+  text-align: center;
+  color: #F00;
+  font-size: 88px;
+  font-weight: 700;
+  font-family: Inter;
+}
+
+.discount-text-Holiday {
+  color: #F00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }
