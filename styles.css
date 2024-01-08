@@ -160,36 +160,45 @@
   max-height: 482px;
   background: linear-gradient(to bottom, rgba(255, 0, 0, 0.10), rgba(255, 0, 0, 0.05));
 
-  padding-top: 100px;
-  padding-left: 385px;
-  padding-right: 386px;
+  padding-top: 80px;
+  padding-left: 370px;
+  padding-right: 350px;
   padding-bottom: 100px;
 }
 
 .orangetext {
   color: #F00;
-  font-size: 28px;
+  font-size: 22px;
   font-weight: 600;
 }
 
 .button {
-  padding: 5px 5px;
+  max-width: 50;
+  margin-left: 70px;
+  margin-right: 70px;
+  padding: 2px 2px;
   text-align: center;
-  gap: 5px;
-  font-size: 20px;
+  font-size: 18px;
   color: #FFF;
   font-weight: 700;
-  border-radius: 8px;
+  border-radius: 50px;
   background: #F00;
 }
 
 .descriptiion {
-  font-size: 28px;
+  font-size: 22px;
   font-family: Inter;
-  line-height: 56px;
+  line-height: 65px;
 }
 
 
 .bg-text {
-  align-items: center;
+  max-width: 549px;
+  max-height: 500px;
+  text-align: center;
 }
+/* EVENT ENDED */
+
+ /* BEST OFFER STARTED  */
+
+ 
