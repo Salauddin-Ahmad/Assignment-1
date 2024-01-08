@@ -191,6 +191,9 @@
 
 
 .bg-text {
+  padding-left: 320px;
+  padding-right: 320px;
+  align-items: center;
   max-width: 549px;
   max-height: 500px;
   text-align: center;
