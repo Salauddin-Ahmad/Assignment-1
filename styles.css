@@ -103,11 +103,10 @@
   position: absolute;
   top: 0;
   right: 0;
-  justify-content: center;
-  padding-top: 68px;
-  padding-right: 138px;
-  width: 319px;
-  height: 464px;
+  padding-top: 140px;
+  padding-right: 10px;
+  max-width: 319px;
+  height: 420px;
 
 }
 
@@ -118,19 +117,18 @@
   font-family: Merriweather;
   font-size: 55px;
   font-weight: 900;
-  line-height: 88px;
-  /* letter-spacing: 7.04px; */
+  line-height: 50px;
 }
 
 .welocome-midnight-details {
   padding-top: 24px;
   padding-left: 126px;
   padding-bottom: 20px;
-  color: rgba(255, 255, 255, 0.80);
-  font-size: 22px;
+  color: rgb(255, 255, 255);
+  font-size: 25px;
   font-family: Inter;
   font-style: normal;
-  line-height: 30px;
+  line-height: 48px;
   font-weight: 400;
 }
 
@@ -160,8 +158,9 @@
   max-height: 482px;
   background: linear-gradient(to bottom, rgba(255, 0, 0, 0.10), rgba(255, 0, 0, 0.05));
   align-items: center;
-  padding-top: 80px;
-  padding-bottom: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-radius: 10px;
 }
 
 .orangetext {
@@ -184,70 +183,128 @@
 }
 
 .descriptiion {
-  font-size: 22px;
+  font-size: 21px;
   font-family: Inter;
-  line-height: 65px;
 }
 
 
 .bg-text {
-  padding-left: 310px;
-  padding-right: 310px;
+  padding-left: 250px;
+  padding-right: 250px;
   align-items: center;
   max-width: 549px;
   max-height: 500px;
   text-align: center;
 }
+
 /* EVENT ENDED */
 
- /* BEST OFFER STARTED  */
+/* BEST OFFER STARTED  */
 
 
-.offer-coming-soon{
-  background-color: bisque;
+.offer-coming-soon {
   margin-left: 140px;
   margin-right: 140px;
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 10px;
 }
 
-.center-image{
+.center-image {
   padding: 40px;
   border: 14px #F00 solid;
-  border-radius:  50%;
+  border-radius: 50%;
   align-items: center;
 }
 
-.elipse{
+.elipse {
   justify-content: center;
   align-self: center;
   max-width: 364px;
   max-height: 364px;
 }
-.best-offer{
-font-size: 24px;
-color: #F00;
-}
-.coming-soon{
-  font-family: Merriweather;
-  font-size: 48px;
-}
-.offer-description{
-  font-family: Inter;
-  font-weight: 400;
-  line-height: 32px;
-}
-.leftisde-text{
-  text-align: left;
-  padding-left: 10px;
-  padding-right: 20px;
-}
-.right-sided-text{
-  padding-left: 20px;
-}
-.text-2024{
-  font-family: Inter;
-  font-size: 48px;
+
+.best-offer {
+  font-size: 24px;
   color: #F00;
 }
+
+.coming-soon {
+  font-family: Inter;
+  font-size: 38px;
+}
+
+.offer-description {
+  text-align:start;
+  align-items: center;
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: normal;
+  padding-bottom: 20px;
+}
+
+.leftisde-text {
+  text-align: left;
+  padding-left: 18px;
+  padding-top: 40px;
+  padding-right: 10px;
+}
+
+.right-sided-text {
+  padding-left: 22px;
+  font-size: 20px;
+}
+
+.text-2024 {
+  font-family: Inter;
+  font-size: 40px;
+  color: #F00;
+}
+
+.new-year-logo,
+.new-year-logo-img {
+  padding-right: 15px;
+}
+
+/* BEST OFFER ENDED  */
+
+.Holiday-sale-parent {
+  margin-left: 140px;
+  margin-right: 140px;
+  margin-top: 120px;
+  align-items: center;
+  text-align: center;
+  color: #070211;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.Holiday-sale-orange {
+  color: rgb(255, 132, 0);
+  font-family: Merriweather;
+  font-size: 62px;
+  font-style: normal;
+  font-weight: 900;
+}
+
+.Holidays-black-text {
+  color: #070211;
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 60px;
+}
+
+.Holiday-sale-description {
+  padding-bottom: 30px ;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+}
+
+/* BONUS ENDED */
