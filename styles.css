@@ -206,7 +206,7 @@
 .offer-coming-soon{
   margin-left: 140px;
   margin-right: 140px;
-  
+  display: flex;
 }
 
 .center-image{
