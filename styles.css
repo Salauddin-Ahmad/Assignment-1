@@ -9,7 +9,7 @@
 .banner-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url("./resources/Banner-Image.png");
   background-repeat: no-repeat;
-  max-width: 1320px;
+  max-width: 1400px;
   height: 600px;
   margin: 50px 140px;
   border-radius: 16px;
@@ -93,7 +93,7 @@
   margin-left: 140px;
   margin-bottom: 120px;
   background-repeat: no-repeat;
-  max-width: 1320px;
+  max-width: 1300px;
   height: 600px;
   border-radius: 5px;
   position: relative;
@@ -212,7 +212,7 @@
 }
 
 .center-image {
-  padding: 40px;
+  padding: 30px;
   border: 14px #F00 solid;
   border-radius: 50%;
   align-items: center;
@@ -220,9 +220,6 @@
 
 .elipse {
   justify-content: center;
-  align-self: center;
-  max-width: 364px;
-  max-height: 364px;
 }
 
 .best-offer {
@@ -253,19 +250,19 @@
 }
 
 .right-sided-text {
-  padding-left: 22px;
+  padding-left: 25px;
   font-size: 20px;
 }
 
 .text-2024 {
   font-family: Inter;
-  font-size: 40px;
+  font-size: 50px;
   color: #F00;
 }
 
 .new-year-logo,
 .new-year-logo-img {
-  padding-right: 15px;
+  padding-right: px;
 }
 
 /* BEST OFFER ENDED  */
