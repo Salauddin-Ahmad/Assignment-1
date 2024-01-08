@@ -7,7 +7,7 @@
 /* BANNER SECTION STARTS */
 
 .banner-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url("../resources/Banner-Image.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url("./resources/Banner-Image.png");
   background-repeat: no-repeat;
   max-width: 1320px;
   height: 600px;
@@ -88,7 +88,7 @@
 
 /* MIDNINGT PARTY STARTS */
 .midnight-bg-image {
-  background-image: url("/resources/Vectorrr.png");
+  background-image: url("./resources/Vectorrr.png");
   margin-right: 140px;
   margin-left: 140px;
   margin-bottom: 120px;
@@ -159,10 +159,8 @@
   max-width: 1320px;
   max-height: 482px;
   background: linear-gradient(to bottom, rgba(255, 0, 0, 0.10), rgba(255, 0, 0, 0.05));
-
+  align-items: center;
   padding-top: 80px;
-  padding-left: 370px;
-  padding-right: 350px;
   padding-bottom: 100px;
 }
 
@@ -201,4 +199,20 @@
 
  /* BEST OFFER STARTED  */
 
- 
+
+.offer-coming-soon{
+  margin-left: 140px;
+  margin-right: 140px;
+  
+}
+
+.center-image{
+  align-items: center;
+}
+
+.elipse{
+  justify-content: center;
+  align-self: center;
+  max-width: 364px;
+  max-height: 364px;
+}
