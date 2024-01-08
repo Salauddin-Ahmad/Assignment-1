@@ -191,8 +191,8 @@
 
 
 .bg-text {
-  padding-left: 320px;
-  padding-right: 320px;
+  padding-left: 310px;
+  padding-right: 310px;
   align-items: center;
   max-width: 549px;
   max-height: 500px;
@@ -204,12 +204,18 @@
 
 
 .offer-coming-soon{
+  background-color: bisque;
   margin-left: 140px;
   margin-right: 140px;
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .center-image{
+  padding: 40px;
+  border: 14px #F00 solid;
+  border-radius:  50%;
   align-items: center;
 }
 
@@ -218,4 +224,30 @@
   align-self: center;
   max-width: 364px;
   max-height: 364px;
+}
+.best-offer{
+font-size: 24px;
+color: #F00;
+}
+.coming-soon{
+  font-family: Merriweather;
+  font-size: 48px;
+}
+.offer-description{
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 32px;
+}
+.leftisde-text{
+  text-align: left;
+  padding-left: 10px;
+  padding-right: 20px;
+}
+.right-sided-text{
+  padding-left: 20px;
+}
+.text-2024{
+  font-family: Inter;
+  font-size: 48px;
+  color: #F00;
 }
