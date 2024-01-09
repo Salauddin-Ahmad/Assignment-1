@@ -308,35 +308,40 @@
 
 /* OPTIONAL STARTED */
 .optional-section{
-
+  margin: 0 140px 120px 140px;
+  height: 496px;
 }
 
 .box-image {
- max-width: 43%;
+ max-width: 50%;
  position: relative;
- bottom: -135px;
- right: -142px;
+ bottom: -120px;
+ right: -10px;
 
 }
 .red-rectangle{
   max-width: 1000px;
-  height: 150px;
-  margin-left: 140px;
-  margin-right: 140px;
+  height: 147.7px;
+  /* margin-left: 140px;
+  margin-right: 140px; */
 }
 
 .ladie-image{
-  max-width: 25%;
+  max-width: 30%;
   position: relative;
-  right: -722px;
-  top: -439px;
+  right: -596px;
+  top: -409.4px;
 }
 .discount-image{
   max-width: 200px;
   position: relative;
-  right: -335px;
-  top: -469px;
+  right: -230px;
+  top: -440px;
 }
 /* OPTIONAL ENDS */
 
 /* AWESOME PORTFOLIO STARTS  */
+.awesome-portfolio-text{
+  margin: 0 140px;
+
+}
