@@ -77,8 +77,8 @@
 .new-year-img {
   display: block;
   margin-top: 48px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 140px;
+  margin-right: 140px;
   margin-bottom: 120px;
   max-width: 800px;
   max-height: 500px;
@@ -308,7 +308,7 @@
 
 /* OPTIONAL STARTED */
 .optional-section{
-  margin: 0 140px 120px 140px;
+  margin: 0px 140px 120px 140px;
   height: 496px;
 }
 
@@ -341,7 +341,28 @@
 /* OPTIONAL ENDS */
 
 /* AWESOME PORTFOLIO STARTS  */
+
 .awesome-portfolio-text{
   margin: 0 140px;
-
 }
+.best-gift{
+  color: #F00;
+  font-size: 20px;
+}
+.awesome-portfolio-title{
+  font-size: 35px;
+}
+.awesome-portfolio-description{
+  font-size: 17px;
+}
+
+.awsome-portfolio-image-parent{
+  margin: 50px 140px 120px 120px;
+  display: flexbox;
+}
+.main-image-child{
+  padding: 5px;
+  max-width: 290px;
+  max-height: 290px;
+}
+/* AWESOME PORTFOLIO ENDED */
