@@ -369,49 +369,59 @@
 /* AWESOME PORTFOLIO ENDED */
 /* NEWSLETTER STARTED */
 .subcribe-newsletter-parent {
-  margin: 0 50px 0 50px;
-  padding: 30px 60px 0 55px;
+  margin: 0px 80px 60px 80px;
+  padding: 10px 50px 20px 20px;
   background-color: rgb(250, 230, 197);
-  max-width: 1100px;
+  max-width: 950px;
   height: 380px;
   border-radius: 6px;
   text-align: center;
   align-items: center;
   padding-bottom: 50px;
 }
-.subscribe-details{
+
+.subscribe-details {
   margin-bottom: 60px;
 }
+
 .email {
   margin-top: 50px;
   width: 10%;
   letter-spacing: 20px;
 }
 
-.input-group{
+.input-group {
   justify-content: center;
-  align-items: center; 
+  align-items: center;
   display: grid;
   display: flex;
 }
-  
- input[type=email] {
+
+input[type=email] {
   flex-grow: 0.2;
   padding: 10px;
   border: none;
   border-radius: 25px 0px 0px 25px;
- 
-} 
+
+}
+
 .subscribe-btn {
-    background-color: #ff0000; /* Adjust color as needed */
-    color: white;
-    border: none;
-    padding: 9.8px;
-    border: none;
-    border-radius: 0px 25px 25px 0px;
+  background-color: #ff0000;
+  /* Adjust color as needed */
+  color: white;
+  border: none;
+  padding: 9.8px;
+  border: none;
+  border-radius: 0px 25px 25px 0px;
 }
 
 /* newsletter ended */
 
 /* FOOTER STARTS */
 
+.footer-parent {
+  margin-top: 80px;
+  padding: 0;
+  background-color: #070211;
+  height: 480px;
+}
